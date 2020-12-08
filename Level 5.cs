@@ -5,7 +5,7 @@ namespace Advent_of_Code
 {
     class Level_5
     {
-        static void Main(string[] args)
+        static void Main_5(string[] args)
         {
             string[] seatArray = {"FFBBFFFLLL",
 "BFBFBFBLLR",
