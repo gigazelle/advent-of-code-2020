@@ -5,7 +5,7 @@ namespace Advent_of_Code
 {
     class Level_8
     {
-        static void Main(string[] args)
+        static void Main_8(string[] args)
         {
             string[] operations = {"acc +13",
 "acc -6",
