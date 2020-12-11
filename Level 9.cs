@@ -6,7 +6,7 @@ namespace Advent_of_Code
 {
     class Level_9
     {
-        static void Main(string[] args)
+        static void Main_9(string[] args)
         {
             long[] xmas = {21,
 41,
