@@ -6,7 +6,7 @@ namespace Advent_of_Code
 {
     class Level_11
     {
-        static void Main(string[] args)
+        static void Main_11(string[] args)
         {
             string[] seats = {"LLLLLLLLL.LLLLL.LLLLL.LLLL.LLLLLL.LL.LLLLLLLLLLLLL.LLLLLL.LLLLLLLLLLLLLLL.LLLL.LLLL.LLLL.LLLLL",
 "LLLLLLLLL.LLLLL.LLLLL.LLLLLLLL.LLLLL.LLLLLLLLLLLLL.LLLLLLLLLLLLLLLLLL.LLL.LLLL.LLLLLLLLLLLLLLL",
