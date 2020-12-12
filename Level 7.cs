@@ -7,10 +7,10 @@ namespace Advent_of_Code
     class Level_7
     {
         static int i;
-        static int thisColorContainsShinyGold;
+        //static int thisColorContainsShinyGold;
         static List<string> bagList = new List<string>();
         static bool[] colorsContainingGold = new bool[594];
-        static void Main(string[] args)
+        static void Main_7(string[] args)
         {
             string[] bagArray = {"clear maroon contain 1 dull lavender",
 "wavy turquoise contain 4 vibrant magenta,4 light violet,5 bright gold,2 faded black",
