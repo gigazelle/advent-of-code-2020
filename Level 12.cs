@@ -7,7 +7,7 @@ namespace Advent_of_Code
     class Level_12
     {
 
-        static void Main(string[] args)
+        static void Main_12(string[] args)
         {
             string[] testdirections = { "F10", "N3", "F7", "R90", "F11" };
             string[] directions = {"W3",
