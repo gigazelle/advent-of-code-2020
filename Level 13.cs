@@ -7,7 +7,7 @@ namespace Advent_of_Code
     class Level_13
     {
 
-        static void Main(string[] args)
+        static void Main_13(string[] args)
         {
             // Get the busID list and correct modulo list "1789,37,47,1889";//
             string busRaw = "23,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,37,x,x,x,x,x,431,x,x,x,x,x,x,x,x,x,x,x,x,13,17,x,x,x,x,19,x,x,x,x,x,x,x,x,x,x,x,409,x,x,x,x,x,x,x,x,x,41,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,29";
@@ -34,7 +34,7 @@ namespace Advent_of_Code
             {
                 while (true)
                 {
-                    // Repeat this until you get one of the modulos correct
+                    // Repeat this until you get the next modulo correct
 
                     if (Convert.ToInt32(busIDs[i] - timestamp % busIDs[i]) == correctModulo[i])
                     {
